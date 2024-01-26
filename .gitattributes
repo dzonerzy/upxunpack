@@ -1,0 +1,2 @@
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+rootfs.tar.gz filter=lfs diff=lfs merge=lfs -text
