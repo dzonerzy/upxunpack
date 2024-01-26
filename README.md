@@ -7,6 +7,10 @@ UPX unpack is a tool to unpack PE files packed with UPX, it supports latest UPX 
 You can run the tool directly from the docker image, or build it yourself.
 
 ```
+docker run --rm -it dzonerzy/upxunpack:1.0.0 bash
+```
+
+```
 > docker run --rm -it dzonerzy/upxunpack:1.0.0 bash
 # python upxunpack.py -h
 usage: unpack.py [-h] -i INPUT [-o OUTPUT]
